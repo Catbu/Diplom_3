@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: ConstructorTransitionTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.619 s <<< FAILURE! - in ConstructorTransitionTest
+transitionBunsTest[1](ConstructorTransitionTest)  Time elapsed: 1.892 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "current"
+     but: was "tab_tab__1SPyG  pt-4 pr-10 pb-4 pl-10 noselect"
+	at ConstructorTransitionTest.transitionBunsTest(ConstructorTransitionTest.java:61)
+
