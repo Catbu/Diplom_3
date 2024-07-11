@@ -54,8 +54,8 @@ public class LogOutTest {
     @Test
     @DisplayName("Выход из аккаунта")
     public void redirectOutClickConstructTest(){
-        CabinetPage kabinetPage = new CabinetPage(driver);
-        kabinetPage.clickLogOutButton();
+        CabinetPage cabinetPage = new CabinetPage(driver);
+        cabinetPage.clickLogOutButton();
         new WebDriverWait(driver, Constants.TIMER).until(ExpectedConditions.urlToBe(Constants.LOGIN_URL));
         storageToken = storageTokenClient.downloadStorageAccessToken(driver);
         Assert.assertNull(storageToken);

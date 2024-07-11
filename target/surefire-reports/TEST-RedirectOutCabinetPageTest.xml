@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="RedirectOutCabinetPageTest" time="14.979" tests="2" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="RedirectOutCabinetPageTest" time="9.226" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.22_7\bin"/>
-    <property name="sun.java.command" value="C:\Users\Nastya\AppData\Local\Temp\surefire16672304358944848622\surefirebooter7791570276425966019.jar C:\Users\Nastya\AppData\Local\Temp\surefire16672304358944848622 2024-07-07T19-48-12_544-jvmRun1 surefire572737000829172638tmp surefire_017500502259837738569tmp"/>
+    <property name="sun.java.command" value="C:\Users\Nastya\AppData\Local\Temp\surefire12711039528022608232\surefirebooter4352685706006545762.jar C:\Users\Nastya\AppData\Local\Temp\surefire12711039528022608232 2024-07-11T22-23-34_404-jvmRun1 surefire8789307978567214949tmp surefire_06085858462492084982tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Nastya\IdeaProjects\Diplom_3\target\test-classes;C:\Users\Nastya\IdeaProjects\Diplom_3\target\classes;C:\Users\Nastya\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Nastya\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Nastya\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Nastya\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Nastya\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Nastya\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Nastya\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Nastya\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Nastya\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Nastya\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Nastya\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Nastya\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Nastya\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Nastya\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Nastya\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Nastya\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Nastya\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Nastya\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Nastya\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Nastya\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Nastya\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Nastya\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Nastya\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Nastya\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Nastya\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Nastya\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Nastya\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Nastya\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Nastya\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Nastya\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Nastya\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Nastya\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Nastya\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Nastya\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Nastya\.m2\repository\io\qameta\allure\allure-junit4\2.20.0\allure-junit4-2.20.0.jar;C:\Users\Nastya\.m2\repository\io\qameta\allure\allure-java-commons\2.20.0\allure-java-commons-2.20.0.jar;C:\Users\Nastya\.m2\repository\io\qameta\allure\allure-model\2.20.0\allure-model-2.20.0.jar;C:\Users\Nastya\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\Nastya\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\Nastya\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\Nastya\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\Nastya\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\Nastya\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Nastya\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\Nastya\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\Nastya\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\Nastya\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Nastya\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Nastya\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Nastya\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Nastya\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\Nastya\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\Nastya\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Nastya\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Nastya\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Nastya\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\Nastya\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\Nastya\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Nastya\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Nastya\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Nastya\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Nastya\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Nastya\.m2\repository\com\github\javafaker\javafaker\0.15\javafaker-0.15.jar;C:\Users\Nastya\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\Nastya\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Nastya\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="allure.results.directory" value="C:\Users\Nastya\IdeaProjects\Diplom_3\target/allure-results"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Nastya\AppData\Local\Temp\surefire16672304358944848622\surefirebooter7791570276425966019.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Nastya\AppData\Local\Temp\surefire12711039528022608232\surefirebooter4352685706006545762.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.22+7-LTS"/>
@@ -62,200 +62,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="redirectOutClickLogoTest" classname="RedirectOutCabinetPageTest" time="7.467">
-    <error message="Expected condition failed: waiting for element to be clickable: By.xpath: .//button[text()=&apos;Оформить заказ&apos;] (tried for 5 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: .//button[text()='Оформить заказ'] (tried for 5 second(s) with 500 milliseconds interval)
-	at RedirectOutCabinetPageTest.before(RedirectOutCabinetPageTest.java:46)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Оформить заказ']"}
-  (Session info: chrome=126.0.6478.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-7C1P7I5Q', ip: '192.168.0.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\Nastya\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d73c64b3913810cbc3e2a35edf7c2928
-*** Element info: {Using=xpath, value=.//button[text()='Оформить заказ']}
-	at RedirectOutCabinetPageTest.before(RedirectOutCabinetPageTest.java:46)
-</error>
-    <system-out><![CDATA[Request method:	POST
-Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "email": "CatburgerLuisa@gmail.com",
-    "password": "login",
-    "name": "NastyaCartwright"
-}
-HTTP/1.1 200 OK
-Date: Sun, 07 Jul 2024 16:49:13 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-X-Powered-By: Express
-Access-Control-Allow-Origin: *
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGFjNzA5OWVkMjgwMDAxYjQ2NTRjZiIsImlhdCI6MTcyMDM3MDk1MywiZXhwIjoxNzIwMzcyMTUzfQ.gGA18YN8nnVDfLu3dIeDXeXH9EpUiwmdUQT7TeLjh8k
-ETag: W/"17b-JWSDUsVmf3h2iwArZjCKrT5octY"
-CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=bKxdXijpP2ucidf5GO%2BmoqOZ39P%2Fz2AkTW1Wda%2FvKCHyby9mo4X7Sn1SgSo3V0h0f5TqvUwpi5y83fldEqFlA8BL3K3eBl6%2BpnpsHXcGrAU0b%2Fhzrjpws%2BiPHFBMJIJKccJHRl6FboPhQVdk7VDqJ%2FryH5M%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
-CF-RAY: 89f95398da111c16-OSL
-Content-Encoding: gzip
-alt-svc: h3=":443"; ma=86400
-
-{
-    "success": true,
-    "user": {
-        "email": "catburgerluisa@gmail.com",
-        "name": "NastyaCartwright"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGFjNzA5OWVkMjgwMDAxYjQ2NTRjZiIsImlhdCI6MTcyMDM3MDk1MywiZXhwIjoxNzIwMzcyMTUzfQ.gGA18YN8nnVDfLu3dIeDXeXH9EpUiwmdUQT7TeLjh8k",
-    "refreshToken": "aae9e88d451caf1d82cf60269d35e73748290700e4392e9c598004d6aab307afbf7b8db58730ea35"
-}
-Request method:	DELETE
-Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 202 Accepted
-Date: Sun, 07 Jul 2024 16:49:19 GMT
-Content-Type: application/json; charset=utf-8
-Content-Length: 54
-Connection: keep-alive
-X-Powered-By: Express
-Access-Control-Allow-Origin: *
-ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
-CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=3NNpo45PwZ%2BrBeglRran26DdwLpTzTFNr3%2FtCuKQgcGgiUZTjxC6yR6RFilcN3ZGUaIF6Sx5hcb5tomnAhZb9i7hs96BAJfZCL06eBCe3AJhTMJaeLb%2FFk4bTuAmYjQX7xciI1tNG8ejFqPPVSEG6oLsi3M%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
-CF-RAY: 89f953c00f49a85d-RIX
-alt-svc: h3=":443"; ma=86400
-
-{
-    "success": true,
-    "message": "User successfully removed"
-}
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 126.0.6478.126 (d36ace6122e0a59570e258d82441395206d60e1c-refs/branch-heads/6478@{#1591}) on port 34980
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-июл. 07, 2024 7:49:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="redirectOutClickConstructTest" classname="RedirectOutCabinetPageTest" time="7.508">
-    <error message="Expected condition failed: waiting for element to be clickable: By.xpath: .//button[text()=&apos;Оформить заказ&apos;] (tried for 5 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: .//button[text()='Оформить заказ'] (tried for 5 second(s) with 500 milliseconds interval)
-	at RedirectOutCabinetPageTest.before(RedirectOutCabinetPageTest.java:46)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":".//button[text()='Оформить заказ']"}
-  (Session info: chrome=126.0.6478.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-7C1P7I5Q', ip: '192.168.0.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\Nastya\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59503}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f6788deb5bf95d1f6310182b433e1046
-*** Element info: {Using=xpath, value=.//button[text()='Оформить заказ']}
-	at RedirectOutCabinetPageTest.before(RedirectOutCabinetPageTest.java:46)
-</error>
-    <system-out><![CDATA[Request method:	POST
-Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "email": "CatburgerGeoffrey@gmail.com",
-    "password": "login",
-    "name": "NastyaHand"
-}
-HTTP/1.1 200 OK
-Date: Sun, 07 Jul 2024 16:49:20 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-X-Powered-By: Express
-Access-Control-Allow-Origin: *
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGFjNzEwOWVkMjgwMDAxYjQ2NTRkMSIsImlhdCI6MTcyMDM3MDk2MCwiZXhwIjoxNzIwMzcyMTYwfQ.i7-FGhxaCe0a6fWESfP8tNyop4GoS4WffLPM6vac2pk
-ETag: W/"178-xJSyjD6AeJE4Vuka9pTg8/wxy1M"
-CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=0cb1DW4%2BZDHsFSoulWCNgigOr6YPuVUjW2THLk9u%2F%2BdHCtmiPM2JSxSbryuwCE8Ap3cybdDcCdyEY9UoHq%2BpjkNg0tm0NBzPYeeYb%2F3YPa%2FxS%2FbU4pJhFT8V0Hc6EjSdvp2msmBXavwfKXznH32rj1BC20s%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
-CF-RAY: 89f953c72a139d42-DME
-Content-Encoding: gzip
-alt-svc: h3=":443"; ma=86400
-
-{
-    "success": true,
-    "user": {
-        "email": "catburgergeoffrey@gmail.com",
-        "name": "NastyaHand"
-    },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGFjNzEwOWVkMjgwMDAxYjQ2NTRkMSIsImlhdCI6MTcyMDM3MDk2MCwiZXhwIjoxNzIwMzcyMTYwfQ.i7-FGhxaCe0a6fWESfP8tNyop4GoS4WffLPM6vac2pk",
-    "refreshToken": "e2a8c172ad10fdb055d5cd0c44d8765e40130af620220db234f9b6e6e0cfac60245065b97a9659e9"
-}
-Request method:	DELETE
-Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 202 Accepted
-Date: Sun, 07 Jul 2024 16:49:27 GMT
-Content-Type: application/json; charset=utf-8
-Content-Length: 54
-Connection: keep-alive
-X-Powered-By: Express
-Access-Control-Allow-Origin: *
-ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
-CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=cZ9E%2B5zIpw3FbFg7YRhTE3v8Td8GAOCom2yetpZ1s%2BjYdpQJwhU%2BFCQqsjkCz%2FgT9GA%2BA3TNE5aJJlmbz2plUz1VUncLk5O5N0Z5E7qvwgf3xhyAwS3X9r2VK4K5N0kA5QqPP27TimRyTlk%2BU0GoCmrEU6k%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
-CF-RAY: 89f953eeb88f7128-OSL
-alt-svc: h3=":443"; ma=86400
-
-{
-    "success": true,
-    "message": "User successfully removed"
-}
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 126.0.6478.126 (d36ace6122e0a59570e258d82441395206d60e1c-refs/branch-heads/6478@{#1591}) on port 30545
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-июл. 07, 2024 7:49:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
+  <testcase name="redirectOutClickLogoTest" classname="RedirectOutCabinetPageTest" time="5.123"/>
+  <testcase name="redirectOutClickConstructTest" classname="RedirectOutCabinetPageTest" time="4.099"/>
 </testsuite>
